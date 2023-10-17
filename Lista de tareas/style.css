@@ -1,0 +1,115 @@
+
+body{
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0%;
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+}
+.inputs{
+    
+    background: url(imagenes/17545.jpg);
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 25px;
+    width: auto;
+    text-align: center;
+    height: 125px;
+}
+.box_input{
+    width: 90%;
+    /* width: 100%; */
+    max-width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background: #000000;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.048);
+    border-radius: 4px;
+    cursor: pointer; 
+  }
+  button:hover{
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.048);
+    cursor: pointer; 
+    border-radius: 5px;
+  }
+
+
+.wrap {
+	margin: auto;
+	max-width: 800px;
+    width: 90%;
+    align-items: center;
+
+}
+.principal .formulario input[type=text].error {
+	border: 5px solid #2e4131;
+    border-radius: 15px;
+	color: rgb(99, 75, 75);
+    
+}
+.principal .formulario .btn_agregar {
+	background: none;
+    border: 1px solid #000000;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+    
+}
+.principal .formulario .btn_agregar:hover {
+    border: 1px solid #000000;
+}
+
+
+
+
+
+/* - Tareas - */
+.tareas .lista {
+	list-style: none;
+    padding: 0%;
+}
+.tareas .lista li {
+    padding: 2% 0% 2% 0%;
+	border-bottom: 1px solid #B6B6B6;
+}
+
+
+
+.tareas .lista li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+    
+}
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+}
+
+
+.divEliminar{
+    float: right;
+}
+
+img{
+    height: 20px;
+    cursor: pointer;
+}
+
+
+  

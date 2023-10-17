@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tareas</title>
+</head>
+<body>
+    <style>
+        .completada{
+            text-decoration: line-through;
+        }
+        /* img{
+           height: 10px;
+           cursor: pointer;
+        }
+        .divEliminar{
+            display: inline-block;
+            margin-left: 10px;
+        } */
+    </style>
+
+    <div class="principal">
+        <div class="inputs">
+            <h1>Lista de tareas</h1>
+            <input class="box_input" type="text" placeholder="Ingrese una tarea" id="tarea">     <!-- input tarea -->
+
+            <button class="btn_agregar" id="boton" onclick="agregarTarea()">Agregar</button>
+        </div>
+        
+        <div class="tareas">
+            <div class="wrap">
+                <ul class="lista" id="lista">
+    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="listaTareas.js"></script>
+</body>
+</html>
